@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{662CC187-1F20-4537-8129-85320672A2E9}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Losenkov.snk = Losenkov.snk
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{75ECC9BE-D559-4760-9597-9349D8484600}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5FDB5E51-22DB-42B1-A45C-45872E5713E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "utils", "utils", "{62AA4D44-E9E8-4CAE-8A0D-1C18A473A036}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Elksoft.Converters", "src\Elksoft.Converters\Elksoft.Converters.csproj", "{2D21B64F-8C18-4E4C-AF1F-C697A2C22D67}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Elksoft.Converters.Tests", "tests\Elksoft.Converters.Tests\Elksoft.Converters.Tests.csproj", "{6E8307F6-3C2A-4421-A95C-DC3ECE7F2E94}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Elksoft.Converters.Generator", "utils\Elksoft.Converters.Generator\Elksoft.Converters.Generator.csproj", "{A37A3E51-74D4-45E8-B14D-D86659A5EEDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D21B64F-8C18-4E4C-AF1F-C697A2C22D67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D21B64F-8C18-4E4C-AF1F-C697A2C22D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D21B64F-8C18-4E4C-AF1F-C697A2C22D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D21B64F-8C18-4E4C-AF1F-C697A2C22D67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E8307F6-3C2A-4421-A95C-DC3ECE7F2E94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E8307F6-3C2A-4421-A95C-DC3ECE7F2E94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E8307F6-3C2A-4421-A95C-DC3ECE7F2E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E8307F6-3C2A-4421-A95C-DC3ECE7F2E94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A37A3E51-74D4-45E8-B14D-D86659A5EEDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A37A3E51-74D4-45E8-B14D-D86659A5EEDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A37A3E51-74D4-45E8-B14D-D86659A5EEDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A37A3E51-74D4-45E8-B14D-D86659A5EEDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D21B64F-8C18-4E4C-AF1F-C697A2C22D67} = {75ECC9BE-D559-4760-9597-9349D8484600}
+		{6E8307F6-3C2A-4421-A95C-DC3ECE7F2E94} = {5FDB5E51-22DB-42B1-A45C-45872E5713E0}
+		{A37A3E51-74D4-45E8-B14D-D86659A5EEDA} = {62AA4D44-E9E8-4CAE-8A0D-1C18A473A036}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74FDAC86-BFDA-4793-8233-511A49914A03}
+	EndGlobalSection
+EndGlobal
