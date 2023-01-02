@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFrameworks>net7.0;net6.0;net48</TargetFrameworks>
+        <TargetFrameworks>net7.0;net6.0;netcoreapp3.1</TargetFrameworks>
         <ImplicitUsings>disable</ImplicitUsings>
         <Nullable>disable</Nullable>
         <IsPackable>false</IsPackable>
@@ -9,21 +9,6 @@
         <RootNamespace></RootNamespace>
         <AssemblyOriginatorKeyFile>..\..\Losenkov.snk</AssemblyOriginatorKeyFile>
         <PlatformTarget>AnyCPU</PlatformTarget>
-    </PropertyGroup>
-
-    <PropertyGroup Condition="'$(Configuration)'=='Debug'">
-      <DefineConstants>$(DefineConstants)TRACE;</DefineConstants>
-    </PropertyGroup>
-
-    <PropertyGroup Condition="'$(Configuration)'=='Release'">
-      <DefineConstants>$(DefineConstants)TRACE;</DefineConstants>
-    </PropertyGroup>
-
-    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net48|AnyCPU'">
-        <LangVersion>11.0</LangVersion>
-    </PropertyGroup>
-
-    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net48|AnyCPU'">
         <LangVersion>11.0</LangVersion>
     </PropertyGroup>
 
