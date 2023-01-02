@@ -1,0 +1,5 @@
+{
+  "stryker-config": {
+    "target-framework": "net7.0"
+  }
+}
