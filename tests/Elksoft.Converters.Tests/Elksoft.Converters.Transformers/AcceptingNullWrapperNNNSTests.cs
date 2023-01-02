@@ -70,7 +70,7 @@ namespace Elksoft.Converters.Transformers
 
         [Theory]
         [InlineData(null)]
-        [InlineData(124)]
+        [InlineData(124.0)]
         internal void Convert_InvokeOnNullInput_ReturnsExpected(Double? output)
         {
             Verify_Convert_InvokeOnNullInput_ReturnsExpected(output, null);

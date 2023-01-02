@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{662CC187-1F20-4537-8129-85320672A2E9}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
+		.config\dotnet-tools.json = .config\dotnet-tools.json
 		Losenkov.snk = Losenkov.snk
 		README.md = README.md
 	EndProjectSection
