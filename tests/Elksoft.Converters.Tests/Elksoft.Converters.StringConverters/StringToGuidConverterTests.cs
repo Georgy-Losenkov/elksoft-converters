@@ -38,12 +38,13 @@ namespace Elksoft.Converters.StringConverters
         public static TheoryData<String> Convert_NotNullInput_ReturnsExpected_Data()
         {
             return new TheoryData<String>() {
-                { Guid.NewGuid().ToString() },
-                { Guid.NewGuid().ToString("N") },
-                { Guid.NewGuid().ToString("D") },
-                { Guid.NewGuid().ToString("B") },
-                { Guid.NewGuid().ToString("P") },
-                { Guid.NewGuid().ToString("X") },
+                "(cc778c0e-b308-41f6-9652-5a3f4b8395d6)",
+                "{8a20791c-9c61-4191-ad24-c5acded54043}",
+                "3886021a-df13-4a25-912e-92af95f7c145",
+                "1f44486ba96e4dd5acb54490c92fc323",
+                "c15a22f3-f756-4c1e-a0af-c6f2ad168068",
+                "{ 0xa48bc3d5, 0x821e, 0x407f, { 0x95, 0xba, 0x2b, 0x4f, 0x66, 0xd5, 0xa1, 0x30 } }",
+                "{0xa48bc3d5,0x821e,0x407f,{0x95,0xba,0x2b,0x4f,0x66,0xd5,0xa1,0x30}}",
             };
         }
 
