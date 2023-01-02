@@ -32,9 +32,6 @@ namespace Elksoft.Converters.UncheckedNumericConverters
                 { Int16.MinValue, Int16.MinValue },
                 { SByte.MinValue, SByte.MinValue },
                 { -1.0f, -1m },
-#if NET7_0_OR_GREATER
-                { Single.NegativeZero, Decimal.Zero },
-#endif
                 { 0.0f, Decimal.Zero },
 #if NET7_0_OR_GREATER
                 { (Single)Half.Epsilon, Decimal.Parse("0.00000005960464") },

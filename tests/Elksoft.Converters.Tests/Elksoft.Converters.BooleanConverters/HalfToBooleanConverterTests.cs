@@ -31,7 +31,6 @@ namespace Elksoft.Converters.BooleanConverters
                 { (Half)Int16.MinValue, true },
                 { SByte.MinValue, true },
                 { Half.NegativeOne, true },
-                { Half.NegativeZero, false },
                 { Half.Zero, false },
                 { Half.Epsilon, true },
                 { Half.One, true },

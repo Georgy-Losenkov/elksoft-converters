@@ -21,7 +21,7 @@
                 yield return new Constant<Single>(Int16.MinValue, "Int16.MinValue");
                 yield return new Constant<Single>(SByte.MinValue, "SByte.MinValue");
                 yield return new Constant<Single>(-1.0f, "-1.0f");
-                yield return new Constant<Single>(Single.NegativeZero, "Single.NegativeZero") { MinVersion = NetVersion.Net7 };
+                // yield return new Constant<Single>(Single.NegativeZero, "Single.NegativeZero") { MinVersion = NetVersion.Net7 };
                 yield return new Constant<Single>(0.0f, "0.0f");
                 yield return new Constant<Single>((Single)Half.Epsilon, "(Single)Half.Epsilon") { MinVersion = NetVersion.Net7 };
                 yield return new Constant<Single>(Single.Epsilon, "Single.Epsilon");

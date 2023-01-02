@@ -25,7 +25,7 @@ namespace Elksoft.Converters.ImplicitNumericConverters
         public static TheoryData<Char, Half> Convert_ReturnsExpected_Data()
         {
             return new TheoryData<Char, Half>() {
-                { '\u0000', Half.NegativeZero },
+                { '\u0000', Half.Zero },
                 { '\u0001', Half.One },
                 { (Char)SByte.MaxValue, SByte.MaxValue },
                 { (Char)Byte.MaxValue, Byte.MaxValue },

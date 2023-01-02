@@ -26,9 +26,7 @@ namespace Elksoft.Converters.ImplicitNumericConverters
             return new TheoryData<SByte, Double>() {
                 { SByte.MinValue, SByte.MinValue },
                 { (SByte)(-1), -1.0 },
-#if NET7_0_OR_GREATER
-                { (SByte)0, Double.NegativeZero },
-#endif
+                { (SByte)0, 0.0 },
                 { (SByte)1, 1.0 },
                 { SByte.MaxValue, SByte.MaxValue },
             };

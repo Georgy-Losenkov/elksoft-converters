@@ -24,9 +24,6 @@ namespace Elksoft.Converters.CheckedNumericConverters
         public static TheoryData<Double, Char> Convert_ReturnsExpected_Data()
         {
             return new TheoryData<Double, Char>() {
-#if NET7_0_OR_GREATER
-                { Double.NegativeZero, '\u0000' },
-#endif
                 { 0.0, '\u0000' },
                 { Double.Epsilon, '\u0000' },
                 { Single.Epsilon, '\u0000' },

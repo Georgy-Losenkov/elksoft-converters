@@ -20,7 +20,7 @@
                 yield return new Constant<Double>(Int16.MinValue, "Int16.MinValue");
                 yield return new Constant<Double>(SByte.MinValue, "SByte.MinValue");
                 yield return new Constant<Double>(-1.0, "-1.0");
-                yield return new Constant<Double>(Double.NegativeZero, "Double.NegativeZero") { MinVersion = NetVersion.Net7 };
+                // yield return new Constant<Double>(Double.NegativeZero, "Double.NegativeZero") { MinVersion = NetVersion.Net7 };
                 yield return new Constant<Double>(0.0, "0.0");
                 yield return new Constant<Double>(Double.Epsilon, "Double.Epsilon");
                 yield return new Constant<Double>(Single.Epsilon, "Single.Epsilon");

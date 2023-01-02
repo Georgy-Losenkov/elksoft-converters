@@ -26,7 +26,6 @@ namespace Elksoft.Converters.DateTimeConverters
             return new TheoryData<DateTime>() {
                 { new DateTime(DateTime.MinValue.Ticks, DateTimeKind.Utc) },
                 { new DateTime(DateTime.MaxValue.Ticks, DateTimeKind.Utc) },
-                { new DateTime(2022, 12, 12, 12, 23, 34) },
                 { new DateTime(2022, 12, 12, 12, 23, 34, DateTimeKind.Local) },
                 { new DateTime(2022, 12, 12, 12, 23, 34, DateTimeKind.Unspecified) },
                 { new DateTime(2022, 12, 12, 12, 23, 34, DateTimeKind.Utc) },

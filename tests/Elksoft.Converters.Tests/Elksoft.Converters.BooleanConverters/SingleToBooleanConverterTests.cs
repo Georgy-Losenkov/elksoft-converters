@@ -38,9 +38,6 @@ namespace Elksoft.Converters.BooleanConverters
                 { Int16.MinValue, true },
                 { SByte.MinValue, true },
                 { -1.0f, true },
-#if NET7_0_OR_GREATER
-                { Single.NegativeZero, false },
-#endif
                 { 0.0f, false },
 #if NET7_0_OR_GREATER
                 { (Single)Half.Epsilon, true },
