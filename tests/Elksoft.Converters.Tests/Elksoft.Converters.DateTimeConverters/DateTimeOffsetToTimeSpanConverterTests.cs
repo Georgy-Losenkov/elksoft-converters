@@ -26,7 +26,6 @@ namespace Elksoft.Converters.DateTimeConverters
             return new TheoryData<DateTimeOffset>() {
                 { DateTimeOffset.MinValue },
                 { DateTimeOffset.MaxValue },
-                { new DateTimeOffset(new DateTime(2022, 12, 12, 12, 23, 34), TimeSpan.FromMinutes(45)) },
                 { new DateTimeOffset(new DateTime(2022, 12, 12, 12, 23, 34, DateTimeKind.Unspecified), TimeSpan.FromMinutes(45)) },
                 { new DateTimeOffset(new DateTime(2022, 12, 12, 12, 23, 34, DateTimeKind.Utc), TimeSpan.Zero) },
             };

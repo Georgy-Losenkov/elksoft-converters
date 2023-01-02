@@ -29,7 +29,7 @@ namespace Elksoft.Converters.ImplicitNumericConverters
                 { Int16.MinValue, (Half)Int16.MinValue },
                 { SByte.MinValue, SByte.MinValue },
                 { -1, Half.NegativeOne },
-                { 0, Half.NegativeZero },
+                { 0, Half.Zero },
                 { 1, Half.One },
                 { SByte.MaxValue, SByte.MaxValue },
                 { Byte.MaxValue, Byte.MaxValue },

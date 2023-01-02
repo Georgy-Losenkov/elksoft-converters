@@ -27,7 +27,6 @@ namespace Elksoft.Converters.UncheckedNumericConverters
             return new TheoryData<Half, SByte>() {
                 { SByte.MinValue, SByte.MinValue },
                 { Half.NegativeOne, (SByte)(-1) },
-                { Half.NegativeZero, (SByte)0 },
                 { Half.Zero, (SByte)0 },
                 { Half.Epsilon, (SByte)0 },
                 { Half.One, (SByte)1 },

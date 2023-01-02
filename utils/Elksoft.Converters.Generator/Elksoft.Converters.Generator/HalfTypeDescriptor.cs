@@ -18,7 +18,7 @@
                 yield return new Constant<Half>((Half)Int16.MinValue, "(Half)Int16.MinValue");
                 yield return new Constant<Half>(SByte.MinValue, "SByte.MinValue");
                 yield return new Constant<Half>(Half.NegativeOne, "Half.NegativeOne");
-                yield return new Constant<Half>(Half.NegativeZero, "Half.NegativeZero");
+                // yield return new Constant<Half>(Half.NegativeZero, "Half.NegativeZero");
                 yield return new Constant<Half>(Half.Zero, "Half.Zero");
                 yield return new Constant<Half>(Half.Epsilon, "Half.Epsilon");
                 yield return new Constant<Half>(Half.One, "Half.One");

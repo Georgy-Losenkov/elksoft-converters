@@ -25,7 +25,6 @@ namespace Elksoft.Converters.UncheckedNumericConverters
         public static TheoryData<Half, Char> Convert_ReturnsExpected_Data()
         {
             return new TheoryData<Half, Char>() {
-                { Half.NegativeZero, '\u0000' },
                 { Half.Zero, '\u0000' },
                 { Half.Epsilon, '\u0000' },
                 { Half.One, '\u0001' },

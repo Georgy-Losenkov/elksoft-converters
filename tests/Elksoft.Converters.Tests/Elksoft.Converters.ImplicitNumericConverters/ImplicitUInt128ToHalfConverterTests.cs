@@ -25,7 +25,7 @@ namespace Elksoft.Converters.ImplicitNumericConverters
         public static TheoryData<UInt128, Half> Convert_ReturnsExpected_Data()
         {
             return new TheoryData<UInt128, Half>() {
-                { UInt128.Zero, Half.NegativeZero },
+                { UInt128.Zero, Half.Zero },
                 { UInt128.One, Half.One },
                 { (UInt128)SByte.MaxValue, SByte.MaxValue },
                 { (UInt128)Byte.MaxValue, Byte.MaxValue },

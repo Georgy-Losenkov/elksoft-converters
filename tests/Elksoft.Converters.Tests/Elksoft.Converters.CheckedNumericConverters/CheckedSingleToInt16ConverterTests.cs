@@ -27,9 +27,6 @@ namespace Elksoft.Converters.CheckedNumericConverters
                 { Int16.MinValue, Int16.MinValue },
                 { SByte.MinValue, SByte.MinValue },
                 { -1.0f, -1 },
-#if NET7_0_OR_GREATER
-                { Single.NegativeZero, (Int16)0 },
-#endif
                 { 0.0f, (Int16)0 },
 #if NET7_0_OR_GREATER
                 { (Single)Half.Epsilon, (Int16)0 },

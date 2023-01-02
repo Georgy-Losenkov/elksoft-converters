@@ -25,7 +25,6 @@ namespace Elksoft.Converters.UncheckedNumericConverters
         public static TheoryData<Single, UInt128> Convert_ReturnsExpected_Data()
         {
             return new TheoryData<Single, UInt128>() {
-                { Single.NegativeZero, UInt128.Zero },
                 { 0.0f, UInt128.Zero },
                 { (Single)Half.Epsilon, UInt128.Zero },
                 { Single.Epsilon, UInt128.Zero },

@@ -35,15 +35,8 @@ namespace Elksoft.Converters.ImplicitNumericConverters
                 { Int16.MinValue, Int16.MinValue },
                 { SByte.MinValue, SByte.MinValue },
                 { -1.0, -1.0f },
-#if NET7_0_OR_GREATER
-                { Double.NegativeZero, Single.NegativeZero },
-#endif
-#if NET7_0_OR_GREATER
-                { 0.0, Single.NegativeZero },
-#endif
-#if NET7_0_OR_GREATER
-                { Double.Epsilon, Single.NegativeZero },
-#endif
+                { 0.0, 0.0f },
+                { Double.Epsilon, 0.0f },
                 { Single.Epsilon, Single.Epsilon },
 #if NET7_0_OR_GREATER
                 { (Double)Half.Epsilon, (Single)Half.Epsilon },

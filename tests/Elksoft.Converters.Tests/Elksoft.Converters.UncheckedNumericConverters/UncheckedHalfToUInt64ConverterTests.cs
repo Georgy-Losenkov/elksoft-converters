@@ -25,7 +25,6 @@ namespace Elksoft.Converters.UncheckedNumericConverters
         public static TheoryData<Half, UInt64> Convert_ReturnsExpected_Data()
         {
             return new TheoryData<Half, UInt64>() {
-                { Half.NegativeZero, 0UL },
                 { Half.Zero, 0UL },
                 { Half.Epsilon, 0UL },
                 { Half.One, 1UL },

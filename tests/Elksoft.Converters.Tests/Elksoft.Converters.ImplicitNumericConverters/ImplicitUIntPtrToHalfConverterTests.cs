@@ -27,7 +27,7 @@ namespace Elksoft.Converters.ImplicitNumericConverters
             if (IntPtr.Size == 4)
             {
                 return new TheoryData<UIntPtr, Half>() {
-                    { UIntPtr.Zero, Half.NegativeZero },
+                    { UIntPtr.Zero, Half.Zero },
                     { new UIntPtr(1), Half.One },
                     { new UIntPtr(127), SByte.MaxValue },
                     { new UIntPtr(Byte.MaxValue), Byte.MaxValue },
@@ -40,7 +40,7 @@ namespace Elksoft.Converters.ImplicitNumericConverters
             else
             {
                 return new TheoryData<UIntPtr, Half>() {
-                    { UIntPtr.Zero, Half.NegativeZero },
+                    { UIntPtr.Zero, Half.Zero },
                     { new UIntPtr(1), Half.One },
                     { new UIntPtr(127), SByte.MaxValue },
                     { new UIntPtr(Byte.MaxValue), Byte.MaxValue },

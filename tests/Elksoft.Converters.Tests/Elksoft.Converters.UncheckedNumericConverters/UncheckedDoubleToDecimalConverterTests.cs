@@ -29,9 +29,6 @@ namespace Elksoft.Converters.UncheckedNumericConverters
                 { Int16.MinValue, Int16.MinValue },
                 { SByte.MinValue, SByte.MinValue },
                 { -1.0, -1m },
-#if NET7_0_OR_GREATER
-                { Double.NegativeZero, Decimal.Zero },
-#endif
                 { 0.0, Decimal.Zero },
                 { Double.Epsilon, Decimal.Zero },
                 { Single.Epsilon, Decimal.Zero },

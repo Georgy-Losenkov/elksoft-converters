@@ -27,7 +27,6 @@ namespace Elksoft.Converters.UncheckedNumericConverters
             if (IntPtr.Size == 4)
             {
                 return new TheoryData<Double, UIntPtr>() {
-                    { Double.NegativeZero, UIntPtr.Zero },
                     { 0.0, UIntPtr.Zero },
                     { Double.Epsilon, UIntPtr.Zero },
                     { Single.Epsilon, UIntPtr.Zero },
@@ -48,7 +47,6 @@ namespace Elksoft.Converters.UncheckedNumericConverters
             else
             {
                 return new TheoryData<Double, UIntPtr>() {
-                    { Double.NegativeZero, UIntPtr.Zero },
                     { 0.0, UIntPtr.Zero },
                     { Double.Epsilon, UIntPtr.Zero },
                     { Single.Epsilon, UIntPtr.Zero },

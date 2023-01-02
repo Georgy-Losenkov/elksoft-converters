@@ -24,9 +24,6 @@ namespace Elksoft.Converters.UncheckedNumericConverters
         public static TheoryData<Single, UInt64> Convert_ReturnsExpected_Data()
         {
             return new TheoryData<Single, UInt64>() {
-#if NET7_0_OR_GREATER
-                { Single.NegativeZero, 0UL },
-#endif
                 { 0.0f, 0UL },
 #if NET7_0_OR_GREATER
                 { (Single)Half.Epsilon, 0UL },

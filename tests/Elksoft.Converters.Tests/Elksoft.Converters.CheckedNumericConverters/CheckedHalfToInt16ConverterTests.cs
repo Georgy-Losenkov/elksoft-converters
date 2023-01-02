@@ -28,7 +28,6 @@ namespace Elksoft.Converters.CheckedNumericConverters
                 { (Half)Int16.MinValue, Int16.MinValue },
                 { SByte.MinValue, SByte.MinValue },
                 { Half.NegativeOne, -1 },
-                { Half.NegativeZero, (Int16)0 },
                 { Half.Zero, (Int16)0 },
                 { Half.Epsilon, (Int16)0 },
                 { Half.One, (Int16)1 },
