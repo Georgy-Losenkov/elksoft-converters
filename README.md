@@ -36,9 +36,10 @@ In order to construct proper converters library have to know your decision. To i
 prohibited value for your conversion operator you have to mark your operator using `RejectsNullAttribute`.
 
 ## Notes
-- Method `ToString()` is assumed as conversion operator only for primitive types since they reverse operation as well.
-- Library uses reflection to construct converter, but created converters do not use reflection except `Object → TOut`
-  converter that uses reflection to construct inner converters `TIn → TOut`.
+- Method `ToString()` is assumed as conversion operator only for primitive types since they define
+  reverse operation (`Parse`).
+- Library uses reflection to construct converter, but created converters do not use reflection except for `Object → TOut`
+  converter that uses reflection to construct inner converters `TIn → TOut` on demand.
 - Library does not use boxing/unboxing inside converters except special cases like
   - `Object → struct → TOut`
   - `struct → Object`
